@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="title description">
+  <title id="title">Fresh bread and pastries</title>
+  <desc id="description">A warm illustration of a loaf, croissant, and wheat stalk on a cream background.</desc>
+  <rect width="480" height="360" rx="28" fill="#F7F0E4"/>
+  <path d="M66 265h350" fill="none" stroke="#38251D" stroke-linecap="round" stroke-width="8"/>
+  <path d="M128 249c-24-18-28-63-7-91 25-32 84-35 118-7 32 27 33 67 11 98z" fill="#B37B32" stroke="#38251D" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M175 164l-18 51m53-61-18 65m52-48-15 51" fill="none" stroke="#F7F0E4" stroke-linecap="round" stroke-width="9"/>
+  <path d="M278 243c-5-26 8-57 30-73 19-14 41-15 54-3-7 9-5 18 2 22 8 4 17 1 22-6 15 13 20 34 12 53-7 18-25 30-48 34-28 4-64-6-72-27z" fill="#B37B32" stroke="#38251D" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M313 189l54 47m-69-27 56 48m-34-72 50 42" fill="none" stroke="#F7F0E4" stroke-linecap="round" stroke-width="7"/>
+  <path d="M105 105c28 17 44 43 48 73m-49-32c-25-3-39-15-43-34 20-5 35 6 43 34zm18-17c-4-25 5-43 24-53 10 18 3 35-24 53zm-25-3c-20-13-27-30-21-51 20 5 28 21 21 51zm38 36c1-24 13-39 34-44 5 21-6 36-34 44z" fill="#B37B32" stroke="#38251D" stroke-linejoin="round" stroke-width="6"/>
+</svg>

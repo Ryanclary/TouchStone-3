@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contact North Star Bakery about products and preorders.">
+    <title>North Star Bakery | Contact &amp; Preorders</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div>
+          <a class="brand" href="index.html">North Star Bakery</a>
+          <p class="tagline">Good mornings begin at the bakery.</p>
+        </div>
+        <nav class="site-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="media.html">Bakery Gallery</a></li>
+            <li><a href="contact.html" aria-current="page">Contact &amp; Preorders</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="content-panel">
+        <p class="eyebrow">We'd love to hear from you</p>
+        <h1>Contact &amp; preorders</h1>
+        <p>Use this form to ask about the current selection or share a preorder request. Include the item and timing you have in mind so the bakery can follow up.</p>
+      </section>
+
+      <form class="form-panel">
+        <fieldset>
+          <legend>Your details</legend>
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Your message</legend>
+          <div class="form-field">
+            <label for="reason">What can we help with?</label>
+            <select id="reason" name="reason">
+              <option value="question">Product question</option>
+              <option value="preorder">Preorder request</option>
+              <option value="other">Something else</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+        </fieldset>
+
+        <button class="button" type="button" disabled>Form preview only</button>
+        <p class="form-note">This sample form is a front-end demonstration and does not send messages yet. Connect it to the bakery's chosen form service before publishing for customer use.</p>
+      </form>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>North Star Bakery · Good mornings begin at the bakery.</p>
+      </div>
+    </footer>
+  </body>
+</html>
